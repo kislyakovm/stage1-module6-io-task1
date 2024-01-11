@@ -26,7 +26,7 @@ public class FileReader {
 
             if(string != null) {
 
-                String[] splitStrings = string.split("\r\n");
+                String[] splitStrings = string.split("\n");
 
                 if (splitStrings.length == 4) {
 
